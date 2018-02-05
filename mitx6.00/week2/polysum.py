@@ -12,4 +12,4 @@ def polysum(n, s):
     periPoly = n*s
     
     floatSum = areaPoly + periPoly**2
-    return format(floatSum, '.4f')
+    return float(format(floatSum, '.4f'))
