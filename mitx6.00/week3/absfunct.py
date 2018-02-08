@@ -4,3 +4,5 @@ def absolute(value):
         return value
     else:
         return ((-1)*value)
+
+applyToEach(testList, absolute)
